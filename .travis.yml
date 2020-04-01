@@ -1,0 +1,19 @@
+language: android
+dist: trusty
+android:
+  components:
+    # The BuildTools version used by your project
+    - build-tools-29.0.2
+
+    # The SDK version used to compile your project
+    - android-29
+
+script:
+  - ./gradlew clean :simplewebclient:clean :simplewebclient:build :simplewebclient:assembleRelease
+
+# deploy section
+deploy:
+  provider: script
+  script: ./gradlew :simplewebclient:bintrayUpload
+  on:
+    branch: master
