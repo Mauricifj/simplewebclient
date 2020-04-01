@@ -35,7 +35,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     // WebClientLibrary
-    implementation project(':simplewebclient')
+    implementation 'com.mauricifj:simplewebclient:1.0.0'
 
     // SimpleLogger Library
     implementation 'com.mauricifj:simplelogger:1.0.0'
