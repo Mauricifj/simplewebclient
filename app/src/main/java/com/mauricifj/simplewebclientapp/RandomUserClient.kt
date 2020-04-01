@@ -6,7 +6,7 @@ import com.mauricifj.simplewebclient.extensions.toStatusCode
 import com.mauricifj.simplewebclient.network.ClientResult
 import com.mauricifj.simplewebclient.network.WebClient
 
-class RandomUserClient() {
+class RandomUserClient {
     fun getRandomUser(): ClientResult<User> {
 
         return try {
