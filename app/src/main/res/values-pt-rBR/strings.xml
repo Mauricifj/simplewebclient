@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SimpleWebClient</string>
+    <string name="label_first_name">Nome:</string>
+    <string name="label_last_name">Sobrenome:</string>
+    <string name="label_gender">Gênero:</string>
+    <string name="label_age">Idade:</string>
+    <string name="label_phone">Telefone:</string>
+    <string name="label_email">Email:</string>
+    <string name="text_spinner">Carregando…</string>
+    <string name="text_new_button">Gerar Nova Pessoa</string>
+    <string name="content_description_picture">Imagem</string>
+    <string name="placeholder_first_name">Maurici</string>
+    <string name="placeholder_last_name">Ferreira Júnior</string>
+    <string name="placeholder_gender">Masculino</string>
+    <string name="placeholder_age">27</string>
+    <string name="placeholder_phone">(11) 1234 5678</string>
+    <string name="placeholder_email">maurici@email.com</string>
+    <string name="alert_error_title">Erro</string>
+    <string name="alert_error_button">OK, ENTENDI</string>
+    <string name="alert_error_message">Desculpe, eu não consegui gerar uma nova pessoa.\n\nVocê poderia, por favor, tentar novamente mais tarde?</string>
+</resources>

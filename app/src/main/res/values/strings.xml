@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SimpleWebClient</string>
+
+    <!-- Labels -->
+    <string name="label_first_name">First Name:</string>
+    <string name="label_last_name">Last Name: </string>
+    <string name="label_gender">Gender: </string>
+    <string name="label_age">Age: </string>
+    <string name="label_phone">Phone: </string>
+    <string name="label_email">Email: </string>
+
+    <!-- Texts -->
+    <string name="text_spinner">Loading…</string>
+    <string name="text_new_button">Generate New Person</string>
+
+    <!-- Content Description -->
+    <string name="content_description_picture">Picture</string>
+
+    <!-- Error Alert Content -->
+    <string name="alert_error_title">Error</string>
+    <string name="alert_error_message">Sorry, I couldn\'t generate a new person.\n\nCould you, please, try again later?</string>
+    <string name="alert_error_button">OK, I GOT IT</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_first_name">Maurici</string>
+    <string name="placeholder_last_name">Ferreira Junior</string>
+    <string name="placeholder_gender">Male</string>
+    <string name="placeholder_age">27</string>
+    <string name="placeholder_phone">(11) 1234 5678</string>
+    <string name="placeholder_email">maurici@email.com</string>
+</resources>
