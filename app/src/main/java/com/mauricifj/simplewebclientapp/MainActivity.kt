@@ -44,16 +44,18 @@ class MainActivity : Activity(), CoroutineScope {
 
         try
         {
-            val request = GlobalScope.async {
-                val service = RandomUserClient()
-                service.getRandomUser()
+            val request = withContext(Dispatchers.IO) {
+                async {
+                    val service = RandomUserClient()
+                    service.getRandomUser()
+                }
             }
 
-            val result = request.await()
-            val response = result.result
+            val response = request.await()
+            val user = response.result
 
-            if (response != null)
-                setUser(response)
+            if (user != null)
+                setUser(user)
             else {
                 SimpleLogger.error("getRandomUser: response is null")
                 showErrorAlert()
