@@ -122,3 +122,21 @@ class SampleClient {
     }
 }
 ```
+
+### Making it work
+
+Next step is to call your service from a different thread, not on Main Thread.
+
+In this example, I'm using [coroutines](https://developer.android.com/kotlin/coroutines) to make this call.
+
+```kotlin
+val request = withContext(Dispatchers.IO) {
+    async {
+        val service = SampleClient()
+        service.get()
+    }
+}
+
+val response = request.await()
+val result = response.result
+```
