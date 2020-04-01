@@ -1,4 +1,4 @@
-# SimpleWebClient 
+# SimpleWebClient [![Status](https://travis-ci.com/Mauricifj/simplewebclient.svg?branch=master)](https://travis-ci.com/Mauricifj/simplewebclient) [![Download](https://api.bintray.com/packages/mauricifj/simplewebclient/simplewebclient/images/download.svg)](https://bintray.com/mauricifj/simplewebclient/simplewebclient/_latestVersion)
 
 **This project is a library with transitive dependencies and a sample app to test travis ci + bintray publication process.**
 
