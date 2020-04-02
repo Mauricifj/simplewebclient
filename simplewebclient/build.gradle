@@ -22,9 +22,9 @@ ext {
     developerEmail = 'm.f.j@hotmail.com'
     developerUrl = "https://github.com/Mauricifj"
 
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
+    licenseName = 'MIT License'
+    licenseUrl = 'https://www.mit.edu/~amini/LICENSE.md'
+    allLicenses = ["MIT"]
 }
 
 android {
