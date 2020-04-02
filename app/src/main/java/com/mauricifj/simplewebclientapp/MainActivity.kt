@@ -42,8 +42,7 @@ class MainActivity : Activity(), CoroutineScope {
     private suspend fun getRandomUser() {
         setLoader(true)
 
-        try
-        {
+        try {
             val request = withContext(Dispatchers.IO) {
                 async {
                     val service = RandomUserClient()
@@ -60,9 +59,7 @@ class MainActivity : Activity(), CoroutineScope {
                 SimpleLogger.error("getRandomUser: response is null")
                 showErrorAlert()
             }
-        }
-        catch (t: Throwable)
-        {
+        } catch (t: Throwable) {
             SimpleLogger.error("getRandomUser: Error while getting a random user", t)
             showErrorAlert()
         }
