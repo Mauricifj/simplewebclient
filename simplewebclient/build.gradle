@@ -23,7 +23,7 @@ ext {
     developerUrl = "https://github.com/Mauricifj"
 
     licenseName = 'MIT License'
-    licenseUrl = 'https://www.mit.edu/~amini/LICENSE.md'
+    licenseUrl = 'https://github.com/Mauricifj/simplewebclient/blob/master/LICENSE'
     allLicenses = ["MIT"]
 }
 
