@@ -18,6 +18,15 @@ dependencies {
 
 > Don't forget to check if you have **jcenter()** as a repository.
 
+- Or download *simplewebclient-release.aar* from [releases](https://github.com/Mauricifj/simplewebclient/releases), move it to your app module libs folder and add this dependency to your app module level build.gradle in dependencies node
+
+```kotlin
+dependencies {
+    ...
+    implementation files('libs/simplewebclient-release.aar')
+}
+```
+
 ### Internet Permission
 
 Add this permission to your app module level **AndroidManifest.xml**
