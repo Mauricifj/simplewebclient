@@ -5,5 +5,5 @@ import com.mauricifj.simplewebclient.extensions.HttpStatusCode
 data class ClientResult<T>(
     val result: T?,
     val statusCode: HttpStatusCode,
-    val messageError: String? = null
+    val errorMessage: String? = null
 )
